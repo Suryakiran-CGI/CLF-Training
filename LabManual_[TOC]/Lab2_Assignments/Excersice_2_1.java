@@ -29,7 +29,7 @@ class Persn {
 		System.out.println("First Name : " + Persn.fname);
 		System.out.println("Last Name : " + Persn.Lname);
 		System.out.println("Gender : " + Persn.gender);
-		System.out.println("Age : " +age);
+		System.out.println("Age : " +Persn.age);
 		System.out.println("Weight : " + Persn.weight);
 	}
 
@@ -38,7 +38,7 @@ class Persn {
 		System.out.println("First Name : " +fname);
 		System.out.println("Last Name : " +Lname);
 		System.out.println("Gender : " +gender);
-		System.out.println("Age : " +age);
+		System.out.println("Age : " + age);
 		System.out.println("Weight : " +weight);
 	}
 }

@@ -35,7 +35,7 @@ public class Excersice_8 {
 		if(ps.check(str)) {
 			System.out.println(str+" is a Positive String");
 		}else {
-			System.out.println(str+" is a Positive String");
+			System.out.println(str+" is not a Positive String");
 		}
 	}
 

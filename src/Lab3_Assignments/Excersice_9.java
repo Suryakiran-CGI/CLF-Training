@@ -24,7 +24,7 @@ class DateCalculator{
 	
 	public void Duration(int days,int months,int years) {
 		
-		LocalDate GivenDate = LocalDate.of(years, months, months);
+		LocalDate GivenDate = LocalDate.of(years, months, days);
 		LocalDate currentDate = LocalDate.now();
 		
 		Period diff = Period.between(GivenDate, currentDate);

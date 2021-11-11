@@ -36,9 +36,9 @@ class Person {
 
 		System.out.println("Calling Parameterized method...\n");
 
-		System.out.println("First Name : " + this.fname);
-		System.out.println("Last Name : " + this.Lname);
-		System.out.println("Gender : " + this.gender);
+		System.out.println("First Name : " + fname);
+		System.out.println("Last Name : " + Lname);
+		System.out.println("Gender : " + gender);
 
 	}
 	
