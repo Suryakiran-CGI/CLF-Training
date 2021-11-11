@@ -79,19 +79,19 @@ abstract class Item {
 	}
 }
 
-public class Book extends WrittenItem {
-	public Book() {
+public class BookDemo extends WrittenItem {
+	public BookDemo() {
 		super();
 	}
 
-	public Book(int id, String str, int n) {
+	public BookDemo(int id, String str, int n) {
 		super();
 	}
 
 	public boolean equals(Object obj) {
 		if (obj == null)
 			return false;
-		Book otherBook = (Book) obj;
+		BookDemo otherBook = (BookDemo) obj;
 		return super.equals(otherBook);
 	}
 
