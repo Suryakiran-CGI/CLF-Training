@@ -37,11 +37,11 @@ class Main{
 class Test1{
 	public boolean CheckNumber(int n) {
 		boolean flag = false;
-		if(n==0) { return flag; }
+		if(n==0) { return flag=false; }
         while(n != 1)
         {
             n = n/2;
-            if(n%2 != 0 && n != 1){ return flag; }
+            if(n%2 != 0 && n != 1){ return flag=false; }
         }
         return flag=true;
 	}
